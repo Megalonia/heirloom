@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }))
 app.use(cors());
 
 
-const CONNECTION_URL = 'mongodb+srv://Megalonia:Megalonia123@heirloom.af1nt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'replaceME';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true })
