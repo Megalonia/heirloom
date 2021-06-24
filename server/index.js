@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }))
 app.use(cors());
 
 
-const CONNECTION_URL = 'mongodb+srv://Megalonia:Megalonia123@heirloom.af1nt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://Megalonia:<password>@heirloom.af1nt.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 const PORT = process.env.PORT || 5000;
 
